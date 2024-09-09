@@ -3,6 +3,11 @@ const { EufyHomeSession, TuyaAPISession } = require('./lib/clients');
 const email = process.argv[2];
 const password = process.argv[3];
 
+if (!email || !password) {
+  console.error('usage: node index.js "<EUFY ACCOUNT EMAIL>" "<EUFY ACCOUNT PASSWORD>"');
+  return;
+}
+
 (async () => {
   try {
     const eufyClient = new EufyHomeSession(email, password);

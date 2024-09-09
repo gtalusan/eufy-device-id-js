@@ -1,5 +1,5 @@
 {
-  "name": "eufy-device-id-js",
+  "name": "@george.talusan/eufy-device-id-js",
   "version": "0.1.0",
   "description": "This Javascript program allows you to obtain the device ID & local key for your Eufy devices without having to rely on running an old version of their Android app.",
   "main": "index.js",

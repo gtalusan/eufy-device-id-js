@@ -5,6 +5,7 @@ This Javascript program allows you to obtain the device ID & local key for your 
 ## Usage/TLDR:
 
 ```shell
+npm install # install dependencies
 node index.js "<EUFY ACCOUNT EMAIL>" "<EUFY ACCOUNT PASSWORD>"
 ```
 
